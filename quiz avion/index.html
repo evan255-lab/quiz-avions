@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz des Avions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz des Avions</h1>
+    <div id="score">Score : 0 / 0</div>
+    <div id="question-container">
+      <img id="question-image" src="" alt="Image de l'avion" />
+      <div id="options"></div>
+      <div id="resultat"></div>
+    </div>
+    <div id="controls">
+      <button id="btn-rejouer" onclick="rejouer()" style="display: none;">Rejouer</button>
+      <button id="btn-suivant" onclick="suivant()">Suivant</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Ce test a été créé par <strong>Evan Fourcaudot</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
